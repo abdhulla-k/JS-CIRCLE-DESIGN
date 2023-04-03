@@ -5,6 +5,14 @@ body {
     background-color: black;
 }
 
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
 /* shared */
 .container {
     padding-right: 50px;
@@ -65,9 +73,93 @@ body {
 
 .nav-element {
     margin: 13px 15px 5px 15px;
+    font-size: 20px;
 }
 
 .nav-element:hover, .links:hover {
     color: #ffc107;
     cursor: pointer;
+}
+
+.humberger {
+    /* don't want to show the menue in larger screens.
+    will show in smaller screen */
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .nav-rgt-sec {
+        display: none;
+    }
+}
+
+@media (max-width: 763px) {
+    .nav-center-sec {
+        display: none;
+    }
+
+    /* set humberger menue */
+    .humberger {
+        display: block;
+    }
+    .menue-edit {
+        font-size: 35px !important;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav-center-sec {
+        display: none;
+    }
+
+    .nav-element {
+        margin: 13px 15px 5px 15px;
+        font-size: 15px;
+    }
+    
+    /* adjest shared classes */
+    .container-rgt {
+        padding-right: 10px;
+        color: white;
+    }
+    
+    .container-lft {
+        padding-left: 10px;
+        color: white;
+    }
+
+    /* change log and related styles */
+    .logo-div {
+        background-color: white;
+        height: 40px;
+        padding-right: 15px;
+        border-radius: 0px 20px;
+    }
+
+    .logo-title {
+        margin: 0px;
+        padding: 0px;
+        /* color: #ffc107; */
+        color: black;
+        cursor: pointer;
+        margin-top: -8px;
+    }
+
+    .logo-img {
+        border-radius: 120px;
+        max-height: 30px;
+        margin-right: 3px;
+        margin-top: -11px;
+    }
+
+    /* set humberger menue */
+    .humberger {
+        display: block;
+    }
+
+    .menue-edit {
+        font-size: 28px !important;
+        margin-top: 5px;
+    }
 }
