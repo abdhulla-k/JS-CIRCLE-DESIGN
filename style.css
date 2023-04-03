@@ -1,0 +1,54 @@
+/* main */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+/* shared */
+.container {
+    padding-right: 50px;
+    padding-left: 50px;
+    color: white;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+}
+
+/* header */
+.navbar-container {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.logo-img {
+    border-radius: 120px;
+    max-height: 50px;
+    margin-right: 5px;
+}
+
+.nav-title {
+    margin: 0px;
+    padding: 0px;
+    color: #ffc107;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.nav-element {
+    margin: 13px 15px 5px 15px;
+}
+
+.nav-element:hover, .links:hover {
+    color: #ffc107;
+    cursor: pointer;
+}
