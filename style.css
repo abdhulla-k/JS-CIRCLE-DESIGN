@@ -12,6 +12,16 @@ body {
     color: white;
 }
 
+.container-rgt {
+    padding-right: 50px;
+    color: white;
+}
+
+.container-lft {
+    padding-left: 50px;
+    color: white;
+}
+
 .links {
     text-decoration: none;
     color: white;
@@ -28,6 +38,14 @@ body {
 .navbar-ul {
     display: flex;
     list-style-type: none;
+    padding-left: 0px;
+}
+
+.logo-div {
+    background-color: white;
+    height: 80px;
+    padding-right: 50px;
+    border-radius: 0px 20px;
 }
 
 .logo-img {
@@ -36,10 +54,11 @@ body {
     margin-right: 5px;
 }
 
-.nav-title {
+.logo-title {
     margin: 0px;
     padding: 0px;
-    color: #ffc107;
+    /* color: #ffc107; */
+    color: black;
     cursor: pointer;
     margin-top: 10px;
 }
