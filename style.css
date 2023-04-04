@@ -5,6 +5,10 @@ body {
     background-color: black;
 }
 
+.yellow-c {
+    color: #ffc107 !important;
+}
+
 .material-symbols-outlined {
     font-variation-settings:
     'FILL' 0,
@@ -35,9 +39,26 @@ body {
     color: white;
 }
 
+.special-link {
+    color: #ffc107;
+}
+
+.special-link:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+.main-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
 /* header */
 .navbar-container {
     padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -85,6 +106,17 @@ body {
     /* don't want to show the menue in larger screens.
     will show in smaller screen */
     display: none;
+}
+
+/* Home section */
+.home-section {
+    /* max-width: 1000px; */
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 80vh;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 @media (max-width: 1000px) {
