@@ -175,7 +175,7 @@ body {
 .icons::after {
     content: "";
     display: block;
-    width: 90px;
+    width: 120px;
     height: 1px;
     margin: 2px auto;
     background-color: white;
@@ -188,6 +188,11 @@ body {
         font-size: 53px;
         margin: 0;
         padding: 0;
+    }
+
+    .adjest-condent-center {
+        margin-left: 136px;
+        margin-right: 136px;
     }
 
     /* Home section */
@@ -209,6 +214,11 @@ body {
         font-size: 50px;
         margin: 0;
         padding: 0;
+    }
+
+    .adjest-condent-center {
+        margin-left: 54px;
+        margin-right: 22px;
     }
 
     /* header */
@@ -235,6 +245,11 @@ body {
         font-size: 40px;
         margin: 0;
         padding: 0;
+    }
+
+    .adjest-condent-center {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     /* header */
@@ -284,6 +299,21 @@ body {
         color: white;
     }
 
+    .adjest-condent-center {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .container-rgt {
+        padding-right: 20px;
+        color: white;
+    }
+    
+    .container-lft {
+        padding-left: 20px;
+        color: white;
+    }
+
     /* header */
     .nav-center-sec {
         display: none;
@@ -294,16 +324,6 @@ body {
         font-size: 15px;
     }
     
-    /* adjest shared classes */
-    .container-rgt {
-        padding-right: 20px;
-        color: white;
-    }
-    
-    .container-lft {
-        padding-left: 20px;
-        color: white;
-    }
 
     /* change log and related styles */
     .logo-div {
