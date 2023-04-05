@@ -55,6 +55,37 @@ body {
     padding: 0;
 }
 
+.hide {
+    display: none;
+}
+
+/* humberger menue div */
+.humberger-behind {
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.humberger-main {
+    width: 50%;
+    float: right;
+    background-color: black;
+    height: 99.8%;
+    border-radius: 20px 0px 0px 20px;
+    border: 0.3px white solid;
+    padding-right: 40px;
+}
+
+.humberger-ul {
+    z-index: 100;
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    margin-top: 40px;
+}
+
 /* header */
 .navbar-container {
     padding-top: 10px;
@@ -114,7 +145,7 @@ body {
     align-items: center;
     display: inline-flex;
     justify-content: center;
-    height: 80vh;
+    height: 90vh;
     margin-left: 200px;
     margin-right: 200px;
 }
@@ -134,7 +165,7 @@ body {
         align-items: center;
         display: inline-flex;
         justify-content: center;
-        height: 80vh;
+        height:91vh;
         margin-left: 136px;
         margin-right: 136px;
     }
@@ -160,7 +191,7 @@ body {
         align-items: center;
         display: inline-flex;
         justify-content: center;
-        height: 80vh;
+        height: 91vh;
         margin-left: 54px;
         margin-right: 22px;
     }
@@ -183,6 +214,7 @@ body {
     /* set humberger menue */
     .humberger {
         display: block;
+        cursor: pointer;
     }
     .menue-edit {
         font-size: 35px !important;
@@ -195,7 +227,7 @@ body {
         align-items: center;
         display: inline-flex;
         justify-content: center;
-        height: 80vh;
+        height: 91vh;
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -269,6 +301,7 @@ body {
     /* set humberger menue */
     .humberger {
         display: block;
+        cursor: pointer;
     }
 
     .menue-edit {
@@ -282,7 +315,7 @@ body {
         align-items: center;
         display: inline-flex;
         justify-content: center;
-        height: 80vh;
+        height: 91vh;
         margin-left: 0px;
         margin-right: 0px;
         margin: 0px;
