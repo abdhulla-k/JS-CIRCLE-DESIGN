@@ -181,6 +181,16 @@ body {
     background-color: white;
 }
 
+/* Contact section */
+.contact-section {
+    margin-top: -42px;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
 @media screen and (min-width: 1000px) and (max-width: 1404px) {
     /* shared classes */
     .main-text {
