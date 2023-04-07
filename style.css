@@ -189,6 +189,16 @@ body {
     display: flex;
     justify-content: space-around;
     cursor: pointer;
+    margin-bottom: 50px;
+}
+
+/* Social media section */
+.social-media-section {
+    padding: 50px;
+    background-color: black; 
+    align-items: center;
+    line-height: 2em;
+    margin-top: 20px;
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1404px) {
@@ -380,5 +390,14 @@ body {
         margin-left: 0px;
         margin-right: 0px;
         margin: 0px;
+    }
+
+    /* social media */
+    .social-media-section {
+        padding: 0px 50px 50px 50px;
+        background-color: black; 
+        align-items: center;
+        line-height: 2em;
+        /* margin-top: 20px; */
     }
 }
